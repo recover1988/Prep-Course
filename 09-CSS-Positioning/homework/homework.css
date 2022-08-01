@@ -35,15 +35,28 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 #ejercicioCuatro {
     position: fixed;
     top: 0px;
+    left: 0px;
 }
 /* Acá va tu código */
 
 
 
 /* Ejercicio 5: */
-
+#ejercicioCinco {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
 /* Acá va tu código */
 
 
 
 /* Ejercicio 6. */
+#ejercicioSiete {
+    display: flex;
+    flex-direction: column;
+    }
+#elementoTres{
+   
+}
