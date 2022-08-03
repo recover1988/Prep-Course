@@ -1,0 +1,6 @@
+variables son elementos a los cuales se les puede ir cambiando su valor.
+string es una cadena de texto que se escribe entre comillas'
+funciones son bloques de tareas definidos que se invocan con un nombre, usan parametros que son los valores que se necesita
+y la funcion return no indica que devuelve un resultado que luego puede ser utilizado.
+if es una delcaracion de condicion si se cumple es true y se activa todo el bloque de tareas.
+valores booleanos son elementos de validacion de verdadero o falso

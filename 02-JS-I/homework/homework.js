@@ -28,8 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  let oracion = toString(str);
-  return oracion
+    return str
 }
 
 function suma(x, y) {
@@ -98,7 +97,7 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (nume > 50){
+  if (num > 50){
     return true
   }else{
     return false
@@ -182,9 +181,9 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if (numero > 0){
-    return document.write('Es positivo');
+    return 'Es positivo';
   }else if(numero < 0){
-    return document.write('Es negativo');
+    return 'Es negativo';
   }else{
     return false
   }
@@ -217,7 +216,7 @@ function obtenerSaludo(nombre) {
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  let areaDelTriangulo = (alto * ancho)/2;
+  let areaDelTriangulo = (alto * ancho);
   return areaDelTriangulo
 }
 
@@ -225,7 +224,7 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  let perímetro = lado * lado;
+  let perímetro = lado *4;
   return perímetro
 }
 
@@ -253,17 +252,14 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  let vocales = 'aeiou';
-  if (letra.length === 1){
-    if(vocales.includes(letra)){
-    return 'Es vocal'
-    }else{
-      return 'No es vocal'
-    }
-  }else{
-    return 'Dato Incorrecto'
+    if(letra.length > 1){
+    return "Dato incorrecto"
   }
-}
+  if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
+    return "Es vocal"
+  }
+  return "Dato incorrecto"
+  }
 
 
 
