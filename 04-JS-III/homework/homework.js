@@ -4,6 +4,8 @@ function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
   return array[0]
+  // var array1 = array.shift()
+  //return array1     el metodo shift() saca y elimina el primer elemento.
 }
 
 
@@ -12,6 +14,8 @@ function devolverUltimoElemento(array) {
   // Tu código:
   n= (array.length) - 1;
   return array[n]
+  // let valorUltimoElemento = array.pop();
+  // return valorUltimoElemento   el metodo pop() muestra y elimina del array el ultimo elemento.
 }
 
 
